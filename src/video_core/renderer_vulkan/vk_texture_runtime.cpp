@@ -163,7 +163,7 @@ vk::ImageSubresourceRange MakeSubresourceRange(vk::ImageAspectFlags aspect, u32 
     };
 }
 
-constexpr u64 UPLOAD_BUFFER_SIZE = 512_MiB;
+constexpr u64 UPLOAD_BUFFER_SIZE = 64_MiB;
 constexpr u64 DOWNLOAD_BUFFER_SIZE = 16_MiB;
 
 } // Anonymous namespace
